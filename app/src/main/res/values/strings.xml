@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">TestHttpRequest</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--Login-->
+
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_nickname_hint">Nickname</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirm_password">Confirm password</string>
+    <string name="registration_successful">Registration is successful! Please, confirm your account. We send email to you for this purpose</string>
+    <string name="login_nickname_hint">Nickname</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="sign_sign_in_final">Sign in</string>
+    <string name="sign_sign_up_final">Sign up</string>
+    <string name="sign_login_tab_title">SIGN IN</string>
+    <string name="sign_signup_tab_title">SIGN UP</string>
+
+    <string name="error_wrong_nickname_or_password">Invalid User Name or Password. Please try again.</string>
+    <string name="error_nickname_or_password_not_empty">User Name or Password can not be empty.</string>
+    <string name="sign_error_username"><b>Invalid username format.</b>Must be 5 or more characters. Username can only contain alphanumeric characters (A–Z, a–z, 0–9) or a underscore \'_\'.</string>
+    <string name="sign_error_password"><b>Invalid password format.</b>Must be 8 or more characters containing at least 1 uppercase (A-Z), 1 lowercase (a-z), and 1 number (0–9). No special characters (!,@…) accepted.</string>
+    <string name="sign_error_nickname_matches_password"><b>Nickname matches password.</b>Nickname must not match the password</string>
+    <string name="sign_error_email">Invalid email. Please try again.</string>
+    <string name="sign_error_empty">Empty fields.</string>
+    <string name="sign_error_confirm_password">Wrong confirm password.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!--Permission-->
+    <string name="camera_denied">Access to the camera is denied</string>
+    <string name="write_disk_denied">Access to write to disk is denied</string>
+
+
+
+    <!--toolbar-->
+
+    <string name="toolbar_main_add">Add Image</string>
+    <string name="toolbar_main_play">Play</string>
+
+    <!--addImageFragment-->
+    <string name="description_hint">Description</string>
+    <string name="hashtag_hint">#heshtag</string>
+    <string name="button_saveImage">Save</string>
+
+
+    <string name="card_address">address</string>
+    <string name="card_weather">weather</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
