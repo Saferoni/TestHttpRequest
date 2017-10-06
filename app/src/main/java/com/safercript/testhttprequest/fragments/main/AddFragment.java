@@ -27,7 +27,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.safercript.testhttprequest.MainActivity;
+import com.safercript.testhttprequest.activity.MainActivity;
 import com.safercript.testhttprequest.MyHttpRequestApp;
 import com.safercript.testhttprequest.R;
 import com.safercript.testhttprequest.SharedInfo;

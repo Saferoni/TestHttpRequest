@@ -17,13 +17,5 @@ public class LoginActivity extends AppCompatActivity {
         UIUtils.changeStatusBarColor(this, R.color.colorPrimary);
 
         UIUtils.switchFragment(this, new LoginFragment());
-
-//        if (PreferenceManager.getUserEmail(this) != null) {
-//            // Clear charts old data before user login
-//            SharedVitalsChartsInfo.get().clearChartData();
-//            UIUtils.switchFragment(this, new LoginFragment());
-//        } else {
-//            UIUtils.switchFragment(this, new TutorialFragment());
-//        }
     }
 }

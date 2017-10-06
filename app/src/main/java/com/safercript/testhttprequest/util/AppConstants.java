@@ -8,15 +8,15 @@ public class AppConstants {
     public static final int HANDLER_RESULT_ERROR = 0;
     public static final int HANDLER_RESULT_OK = 1;
     public static final int HANDLER_RESULT_ERROR_TOKEN = 6;
-//Handler ManagerDao
-    // Handler Login
+
+    // Login
     public static final int HANDLER_RESULT_SIGN_UP = 2;
     public static final int HANDLER_RESULT_SIGN_IN = 3;
 
-    //Handler UploadImage
+    // UploadImage
     public static final int HANDLER_RESULT_UPLOAD_IMAGE = 4;
 
-    //Handler getGif
+    //getGif
     public static final int HANDLER_RESULT_GIF = 5;
 
 }

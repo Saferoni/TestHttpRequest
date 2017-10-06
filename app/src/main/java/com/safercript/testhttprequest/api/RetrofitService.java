@@ -24,7 +24,7 @@ public interface RetrofitService {
     Call<ResponseUserLogin> requestSignUp(@Part("username") RequestBody userName,
                                           @Part("email") RequestBody userEmail,
                                           @Part("password") RequestBody userPassword,
-                                          @Part ("avatar") MultipartBody.Part file);
+                                          @Part MultipartBody.Part file);
 
     @POST("/login")
     Call<ResponseUserLogin> requestSignIn(@Body ManagerDao.UserSignIn user);
@@ -44,7 +44,4 @@ public interface RetrofitService {
                                     @Part("latitude") RequestBody latitude,
                                     @Part("longitude") RequestBody longitude);
 
-//    @POST("/image")
-//    Call<ResponseImage> uploadImage(@Header("token") String token,
-//                                    @Body ImageToSend imageToSend);
 }

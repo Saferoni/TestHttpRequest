@@ -38,7 +38,6 @@ public class ManagerDao extends ObjectDao {
 
     }
 
-//    TODO test response
     public void signUP(User user){
         if (user == null){
             error(AppConstants.HANDLER_RESULT_ERROR);
@@ -160,8 +159,6 @@ public class ManagerDao extends ObjectDao {
         });
     }
 
-
-//   TODO test response
     public void addImage(ImageToSend imageToSend, String token){
         if (imageToSend == null || imageToSend.getImagePath() == null){
             error(AppConstants.HANDLER_RESULT_ERROR);
@@ -187,7 +184,6 @@ public class ManagerDao extends ObjectDao {
 
 
         Call<ResponseImage> call = retrofitService.uploadImage(token, bodyImage, description, hashTag, latitude, longitude);
-//        Call<ResponseImage> call = retrofitService.uploadImage(token, imageToSend);
         call.enqueue(new Callback<ResponseImage>() {
             @Override
             public void onResponse(Call<ResponseImage> call,
@@ -223,7 +219,6 @@ public class ManagerDao extends ObjectDao {
             }
         });
     }
-
 
     public class UserSignIn{
         private String email;

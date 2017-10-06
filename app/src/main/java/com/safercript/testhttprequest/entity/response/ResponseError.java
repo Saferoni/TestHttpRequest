@@ -1,19 +1,5 @@
 package com.safercript.testhttprequest.entity.response;
 
-/*{
-        "children": {
-        "image": {
-        "errors": [
-        "The image width is too small (96px). Minimum width expected is 600px."
-        ]
-        },
-        "description": {},
-        "hashtag": {},
-        "latitude": {},
-        "longitude": {}
-        }
-        }*/
-
 import java.util.Arrays;
 
 public class ResponseError {

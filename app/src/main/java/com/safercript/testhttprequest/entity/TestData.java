@@ -1,6 +1,6 @@
-package com.safercript.testhttprequest;
+package com.safercript.testhttprequest.entity;
 
-import com.safercript.testhttprequest.entity.ImageItem;
+import com.safercript.testhttprequest.R;
 
 import java.util.ArrayList;
 

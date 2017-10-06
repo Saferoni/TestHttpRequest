@@ -1,9 +1,5 @@
 package com.safercript.testhttprequest.entity.response;
 
-/**
- * Created by pavelsafronov on 05.10.17.
- */
-
 public class ResponseImage {
     private int id;
     private String description;

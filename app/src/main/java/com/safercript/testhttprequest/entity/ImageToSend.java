@@ -8,9 +8,6 @@ public class ImageToSend {
     private String latitude;
     private String longitude;
 
-    public ImageToSend() {
-    }
-
     public ImageToSend(String latitude, String longitude) {
         this.latitude = latitude;
         this.longitude = longitude;

@@ -1,4 +1,4 @@
-package com.safercript.testhttprequest;
+package com.safercript.testhttprequest.activity;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -22,6 +22,9 @@ import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.safercript.testhttprequest.MyHttpRequestApp;
+import com.safercript.testhttprequest.R;
+import com.safercript.testhttprequest.SharedInfo;
 import com.safercript.testhttprequest.adapters.ItemRecyclerAdapter;
 import com.safercript.testhttprequest.callbacks.DaoHandler;
 import com.safercript.testhttprequest.dao.ManagerDao;

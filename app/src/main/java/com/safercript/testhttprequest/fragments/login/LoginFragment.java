@@ -19,7 +19,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 
 import com.safercript.testhttprequest.LoginActivity;
-import com.safercript.testhttprequest.MainActivity;
+import com.safercript.testhttprequest.activity.MainActivity;
 import com.safercript.testhttprequest.MyHttpRequestApp;
 import com.safercript.testhttprequest.R;
 import com.safercript.testhttprequest.SharedInfo;
